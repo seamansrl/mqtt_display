@@ -10,14 +10,14 @@
 #define CLIENT_NAME "LCD_Screen"
 
 String Unidad = "m3";
-String Title = "  Medidor AySA";
+String Title = "  Medidor";
 char* mqtt_user = "mqtt";
 char* mqtt_password = "mqtt";
-char* mqtt_topic = "femsa/aysa/main/value";
-char* mqtt_server_ip = "10.0.0.1";
+char* mqtt_topic = "main/value";
+char* mqtt_server_ip = "";
 int mqtt_server_port = 1883;
-char* wifi_ssid = "femsa";
-char* wifi_password = "femsa2023";
+char* wifi_ssid = "";
+char* wifi_password = "";
 
 LiquidCrystal_I2C lcd(0x27,COLUMNS,ROWS); 
 
